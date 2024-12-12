@@ -34,7 +34,8 @@ export default function ProductDetails({product} : ProductDetailsProps) {
                         type='submit'
                         name='id'
                         value={product.id}
-                        className={`${isAvailable ? 'text-black' : 'text-red-600'} rounded-lg p-2 text-xs uppercase font-bold w-full border border-black-100 hover:cursor-pointer`}
+                        className={`${isAvailable ? 'text-black' : 'text-red-600'} 
+                        rounded-lg p-2 text-xs uppercase font-bold w-full border border-black-100 hover:cursor-pointer`}
                     >
                         {isAvailable ? 'Disponible' : 'No Disponible'}
                     </button>
@@ -61,7 +62,8 @@ export default function ProductDetails({product} : ProductDetailsProps) {
                         <input
                             type='submit'
                             value='Eliminar'
-                            className='bg-red-600 text-white rounded-lg w-full p-2 uppercase font-bold text-xs text-center'
+                            className='bg-red-600 text-white rounded-lg w-full p-2 uppercase 
+                            font-bold text-xs text-center'
                         />
                     </Form>
                 </div>
